@@ -49,10 +49,11 @@ body {
 
 ul,
 li {
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
+
 .quick {
   position: fixed;
   right: 20px;
@@ -72,7 +73,6 @@ li {
   /* background: rgb(255, 197, 190); */
   background-color: #000;
 }
-
   
 .skill-category {
     display: flex;
@@ -80,7 +80,7 @@ li {
     padding: 2rem;
 }
 
-.skill-category li {
+.skill-category li { 
     font-size: 2rem;
     width: 300px;
     margin-bottom: 4rem;
@@ -90,6 +90,7 @@ li {
 }
 
 .skill-category li ul li{
+    list-style: disc;
     background-color: white;
     position: relative;
     padding: 1rem; 
@@ -97,28 +98,27 @@ li {
     font-size: 1.5rem;
 }
 
-.pf-container {
+.pf {
     display: flex;
 	  align-items: center;
     justify-content: space-between;
-    padding-top: 2rem;
-    height: 100%;
 }
 
-.pf div {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.pf div a {
-  text-align: center;
-  font-size: 2rem;
-  width: 400px;
-}
 .pf div p {
-  margin-top: 0.2rem;
+  margin: 0rem;
   font-size: 1.5rem;
+  text-align: center;
+  width: 500px;
+}
+
+.pf div img {
+  margin-top: 2rem;
+  border-radius: 5%;
+  box-shadow: 0 0 0 3px #000 inset; 
+  border: 5px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
