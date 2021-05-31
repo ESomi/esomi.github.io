@@ -23,10 +23,6 @@ body {
   position: relative;
 }
 
-.full1, .full3 {
-  background: snow;
-}
-
 .full2 {
     background-color: salmon;
   }
@@ -83,7 +79,7 @@ li {
 .skill-category li { 
     font-size: 2rem;
     width: 300px;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
 }
 .skill-category li ul {
     margin-top: 30px;
@@ -91,7 +87,6 @@ li {
 
 .skill-category li ul li{
     list-style: disc;
-    background-color: white;
     position: relative;
     padding: 1rem; 
     color: #333; 
@@ -100,27 +95,44 @@ li {
 
 .pf {
     display: flex;
-	  align-items: center;
     justify-content: space-between;
 }
 
 .pf div p {
-  margin: 0rem;
   font-size: 1.5rem;
-  text-align: center;
   width: 500px;
+  /* text-align: center; */
 }
 
-.pf div img {
+.pf #second-pf img {
+  text-align: center;
+}
+
+.pf img {
   margin-top: 2rem;
   border-radius: 5%;
   box-shadow: 0 0 0 3px #000 inset; 
   border: 5px solid black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 a {
   text-decoration: none;
+}
+
+.contact-1 {
+  display: flex;
+  width: 450px;
+  font-size: 1.3rem;
+
+}
+
+.contact-2 li {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.contact-2 img {
+  margin-right: 2rem;
 }
