@@ -7,6 +7,9 @@
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script src="./js/main.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 
 <body>
@@ -29,7 +32,7 @@
                     <li>
                         데이터베이스
                         <ul>
-                            <li>MaiaDB</li>
+                            <li>MariaDB</li>
                             <li>MySQL</li>
                             <li>MongoDB</li>
                         </ul>
@@ -45,7 +48,7 @@
                         라이브러리
                             <ul>
                                 <li>React, Redux<br>(JS)</li>
-                                <li>pandas,numpy,matplotlib,<br>geopandas,keras<br>(Python)</li>
+                                <li>pandas,numpy,matplotlib,<br>geopandas,filium<br>(Python)</li>
                             </ul>
                     </li>
                 </ul>  
@@ -57,29 +60,62 @@
                 <h2>PORTFOLIO</h2>
                 <div class="pf">
                     <div>
-                        <p>
-                            <a target="_blank" href="http://3.36.217.68/">Openhour Search Map</a>
-                            <br>영업시간 검색 지도
-                            <img src="./img/pf1.jpg" width="400" height="400">                          
-                        </p>
-                                              
+                        <ul id="first-ul">                            
+                            <ul>
+                                <li>Openhour Search Map</li>
+                                <li style="font-size: 1.2rem;">영업시간 검색 지도</li>
+                            </ul>
+                            <li style="margin-left: auto;">
+                                <a target="_blank" href="https://github.com/ESomi/openhourmap">
+                                    <i class="fab fa-github-square fa-2x" style="color: black"></i>
+                                </a>
+                            </li>
+                        </ul>                                              
+                        <a target="_blank" href="http://3.36.217.68/"><img src="./img/pf1.jpg" width="380" height="380"></a>                     
+                        <ul id="desc">
+                            <li style="font-weight: 600">시간 선택창을 통해 현재 영업 중인 카페를 지도에 표시하는 기능을 구현하였습니다.</li>
+                            <li style="margin-top: 2rem;"><i class="fas fa-check-square"></i>  네이버지도API 및 카카오지도API를 활용하여 장소검색기능, 위치표시기능 구현</li>
+                            <li><i class="fas fa-check-square"></i>  ejs문법으로 주요코드 작성</li>
+                            <li><i class="fas fa-check-square"></i>  가상머신 Ubuntu로 서버 관리</li>
+                            <li style="font-weight: 500; margin-top: 1rem;">사용기술</li>
+                            <li>Python(Sellenium,Pandas)   Node.js(Express)  HTML  CSS3  JavaScript ES6</li>
+                        </ul>
                     </div>
                     <div>
-                        <p>
-                            <a target="_blank" href="https://esomi.github.io/apple-clone/">Apple Website Clone</a>
-                            <br>인터렉티브 웹 클론
-                            <div id="second-pf">
-                                <img src="./img/pf2.jpg" width="230" height="400">
-                                <img src="./img/pf2-2.jpg" width="230" height="230">
-                            </div>
-                        </p>
+                        <ul id="first-ul">                            
+                            <ul>
+                                <li>Apple Website Clone</li>
+                                <li style="font-size: 1.2rem;">인터렉티브 웹 클론</li>
+                            </ul>
+                            <li style="margin-left: auto;">
+                                <a target="_blank" href="https://github.com/ESomi/apple-clone">
+                                    <i class="fab fa-github-square fa-2x" style="color: black"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <a target="_blank" href="https://esomi.github.io/apple-clone/"><img src="./img/pf2-2.jpg" width="380" height="380"></a>            
+                        <ul id="desc">
+                            <li style="font-weight: 600">  애플 웹사이트를 클론코딩하여 스크롤함에 따라 애니매이션 효과가 나타나는 인터렉티브 웹페이지를 구현하였습니다.</li>
+                            <li style="margin-top: 2rem;"><i class="fas fa-check-square"></i>  스크롤 위치값을 계산하여 구간별 애니매이션 기능 생성</li>
+                            <li><i class="fas fa-check-square"></i>  스크롤 위치값에 따른 이미지 나열로 비디오 효과 구현</li>
+                            <li><i class="fas fa-check-square"></i>  Media query를 활용 및 브라우저 창 크기별 각 기능 조정</li>
+                            <li style="font-weight: 500; margin-top: 1rem;">사용기술</li>
+                            <li>HTML  CSS3  JavaScript ES6</li>
+                        </ul>                        
                     </div>
                     <div>
-                        <p>
-                            <a target="_blank" href="./content/python-analysis.pdf#page=28" download>Data Analysis</a>
-                            <br>파이썬 부동산데이터 분석
-                            <img src="./img/pf3.jpg" width="400" height="400">   
-                        </p>
+                        <ul>
+                            <li>Data Analysis</li>
+                            <li style="font-size: 1.2rem;">파이썬 부동산데이터 분석</li>
+                        </ul>
+                        <a target="_blank" href="./content/python-analysis.pdf#page=28" download><img src="./img/pf3.jpg" width="380" height="380"></a>            
+                        <ul id="desc">
+                            <li style="font-weight: 600">수집·가공한 데이터를 파이썬으로 데이터를 지도에 시각화하는 팀프로젝트입니다.</li>
+                            <li style="margin-top: 2rem;"><i class="fas fa-check-square"></i>  공공데이터 API로 자료수집 후 전처리, 통계기법 적용</li>
+                            <li><i class="fas fa-check-square"></i>  Python의 Folium 지도시각화 라이브러리 활용</li>
+                            <li style="font-weight: 500; margin-top: 1rem;">사용기술</li>
+                            <li>Python(folium,Pandas)</li>
+                        </ul>                        
                         
                     </div>                                    
                 </div>
@@ -100,10 +136,10 @@
                     <ul class="contact-2">
                         <li>
                         <img src="./img/mail.png" width="50" height="50"> 
-                        sweetsom27@gamil.com</li>
+                        sweetsom27@gmail.com</li>
                         <li>
                         <img src="./img/github.png" width="50" height="50"></img>
-                        <a href="https://github.com/ESomi">https://github.com/ESomi</a>
+                        <a target="_blank" href="https://github.com/ESomi">https://github.com/ESomi</a>
                         </li>
                     </ul>
                 </div>

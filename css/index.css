@@ -94,25 +94,41 @@ li {
 }
 
 .pf {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
 }
 
-.pf div p {
-  font-size: 1.5rem;
-  width: 500px;
-  /* text-align: center; */
+.full2 h2 {
+  margin-bottom: 1rem;
 }
 
-.pf #second-pf img {
-  text-align: center;
+.pf div {
+  margin-right: 160px;
+}
+
+.pf #first-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.pf div ul li {
+  font-size: 1.7rem;
+  font-weight: 400;
 }
 
 .pf img {
-  margin-top: 2rem;
+  margin-top: 1rem;
   border-radius: 5%;
-  box-shadow: 0 0 0 3px #000 inset; 
-  border: 5px solid black;
+  box-shadow: 0 0 0 3px black inset;
+  border: 3px solid black;
+}
+
+.pf div #desc li {
+  font-size: 1.2rem;
+  font-weight: 400;
+    
 }
 
 a {
