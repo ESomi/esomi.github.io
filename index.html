@@ -17,48 +17,141 @@
         <div class="quick"><ul></ul></div>
         <div class="fullsection full1" pageNum="1">
             <span>
-                <h2>SKILLS</h2>
-                
-                <ul class="skill-category">
+                <h2>SKILLS</h2>                
+                <ul class="skills">
                     <li>
                         언어
                         <ul>
-                            <li>Python</li>
-                            <li>JAVA</li>
-                            <li>JavaScript</li>
-                            <li>HTML,CSS</li>
+                            <li>
+                                <li class="skill-title">
+                                    <h6>Python3</h6>
+                                    <div class="skill-value">90%</div>
+                                </li>
+                                <li class="skill-container">
+                                    <div class="skill-percentage skill-90"></div>
+                                </li>
+                            </li>                     
+                            <li>
+                                <li class="skill-title">
+                                    <h6>Java</h6>
+                                    <div class="skill-value">80%</div>
+                                </li>
+                                <li class="skill-container">
+                                    <div class="skill-percentage skill-80"></div>
+                                </li>
+                            </li>
+                            <li>
+                                <li class="skill-title">
+                                    <h6>JavaScript</h6>
+                                    <div class="skill-value">75%</div>
+                                </li>
+                                <li class="skill-container">
+                                    <div class="skill-percentage skill-75"></div>
+                                </li>
+                            </li>
+                            <li>
+                                <li class="skill-title">
+                                    <h6>HTML5, CSS3</h6>
+                                    <div class="skill-value">75%</div>
+                                </li>
+                                <li class="skill-container">
+                                    <div class="skill-percentage skill-75"></div>
+                                </li>
+                            </li>
                         </ul>
                     </li>
                     <li>
                         데이터베이스
                         <ul>
-                            <li>MariaDB</li>
-                            <li>MySQL</li>
-                            <li>MongoDB</li>
+                            <li>
+                                <li class="skill-title">
+                                    <h6>MariaDB</h6>
+                                    <div class="skill-value">75%</div>
+                                </li>
+                                <li class="skill-container">
+                                    <div class="skill-percentage skill-75"></div>
+                                </li>
+                            </li>
+                            <li>
+                                <li class="skill-title">
+                                    <h6>MySQL</h6>
+                                    <div class="skill-value">60%</div>
+                                </li>
+                                <li class="skill-container">
+                                    <div class="skill-percentage skill-60"></div>
+                                </li>
+                            </li>
+                            <li>
+                                <li class="skill-title">
+                                    <h6>MongoDB</h6>
+                                    <div class="skill-value">50%</div>
+                                </li>
+                                <li class="skill-container">
+                                    <div class="skill-percentage skill-50"></div>
+                                </li>
+                            </li>
                         </ul>
                     </li>
                     <li>
-                        서버/프레임워크
-                            <ul>
-                                <li>Node.js</li>
-                                <li>express</li>
+                        웹 프레임워크/라이브러리
+                            <ul id="web-block">
+                                <div id="web-title">Node.js</div>
+                                <li>
+                                    <li class="skill-title">
+                                        <h6>Express.js</h6>
+                                        <div class="skill-value">70%</div>
+                                    </li>
+                                    <li class="skill-container">
+                                        <div class="skill-percentage skill-50"></div>
+                                    </li>
+                                </li>
+                                <li>
+                                    <li class="skill-title">
+                                        <h6>Socket.io</h6>
+                                        <div class="skill-value">80%</div>
+                                    </li>
+                                    <li class="skill-container">
+                                        <div class="skill-percentage skill-80"></div>
+                                    </li>
+                                </li>
+                                
+                                <div id="web-title">JavaScript</div>
+                                <li>
+                                    <li class="skill-title">
+                                        <h6>React, Redux</h6>
+                                        <div class="skill-value">80%</div>
+                                    </li>
+                                    <li class="skill-container">
+                                        <div class="skill-percentage skill-80"></div>
+                                    </li>
+                                </li>  
+                                <!-- <li>
+                                    <li class="skill-title">
+                                        <h6>SPRING</h6>
+                                        <div class="skill-value">50%</div>
+                                    </li>
+                                    <li class="skill-container">
+                                        <div class="skill-percentage skill-50"></div>
+                                    </li>
+                                </li>      -->
                             </ul>
                     </li>
-                    <li>
+                    <!-- <li>
                         라이브러리
                             <ul>
                                 <li>React, Redux<br>(JS)</li>
                                 <li>pandas,numpy,matplotlib,<br>geopandas,filium<br>(Python)</li>
                             </ul>
-                    </li>
+                    </li> -->
                 </ul>  
             </span>                           
-            
         </div>
+
         <div class="fullsection full2" pageNum="2">
             <span>
                 <h2>PORTFOLIO</h2>
                 <div class="pf">
+                    <!-- 1st PORTFOLIO -->                    
                     <div>
                         <ul id="first-ul">                            
                             <ul>
@@ -71,16 +164,19 @@
                                 </a>
                             </li>
                         </ul>                                              
-                        <a target="_blank" href="http://3.36.217.68/"><img src="./img/pf1.jpg" width="380" height="380"></a>                     
+                        <a target="_blank" href="http://3.36.217.68/"><img src="./img/pf1.jpg" width="310" height="310"></a>         
+
                         <ul id="desc">
                             <li style="font-weight: 600">시간 선택창을 통해 현재 영업 중인 카페를 지도에 표시하는 기능을 구현하였습니다.</li>
                             <li style="margin-top: 2rem;"><i class="fas fa-check-square"></i>  네이버지도API 및 카카오지도API를 활용하여 장소검색기능,<br>위치표시기능 구현</li>
                             <li><i class="fas fa-check-square"></i>  ejs문법으로 주요코드 작성</li>
-                            <li><i class="fas fa-check-square"></i>  가상머신 Ubuntu로 서버 관리</li>
+                            <li><i class="fas fa-check-square"></i>  AWS Ubuntu로 서버 관리</li>
                             <li style="font-weight: 500; margin-top: 1rem;">사용기술</li>
-                            <li>Python(Sellenium,Pandas)   Node.js(Express)  HTML  CSS3  JavaScript ES6</li>
+                            <li>Python(Sellenium,Pandas)   Node.js(Express)  HTML  CSS3  JavaScript</li>
                         </ul>
                     </div>
+
+                    <!-- 2nd PORTFOLIO -->
                     <div>
                         <ul id="first-ul">                            
                             <ul>
@@ -93,36 +189,68 @@
                                 </a>
                             </li>
                         </ul>
-                        <a target="_blank" href="https://esomi.github.io/apple-clone/"><img src="./img/pf2-2.jpg" width="380" height="380"></a>            
+                        <a target="_blank" href="https://esomi.github.io/apple-clone/"><img src="./img/pf2-2.jpg" width="310" height="310"></a>            
                         <ul id="desc">
                             <li style="font-weight: 600">  애플 웹사이트를 클론코딩하여 스크롤함에 따라 애니매이션 효과가 나타나는 인터렉티브 웹페이지를 구현하였습니다.</li>
                             <li style="margin-top: 2rem;"><i class="fas fa-check-square"></i>  스크롤 위치값을 계산하여 구간별 애니매이션 기능 생성</li>
                             <li><i class="fas fa-check-square"></i>  스크롤 위치값에 따른 이미지 나열로 비디오 효과 구현</li>
                             <li><i class="fas fa-check-square"></i>  Media query를 활용 및 브라우저 창 크기별 각 기능 조정</li>
                             <li style="font-weight: 500; margin-top: 1rem;">사용기술</li>
-                            <li>HTML  CSS3  JavaScript ES6</li>
+                            <li>HTML  CSS3  JavaScript</li>
                         </ul>                        
+                    </div>                            
+                </div>
+            </span>
+        </div>
+        <div class="fullsection full3" pageNum="3">
+            <span>
+                <h2>PORTFOLIO</h2>
+                <div class="pf">
+                    <!-- 3rd PORTFOLIO -->                    
+                    <div>
+                        <ul id="first-ul">                            
+                            <ul>
+                                <li>Web Chat</li>
+                                <li style="font-size: 1.2rem;">Node.js + React 웹 채팅</li>
+                            </ul>
+                            <li style="margin-left: auto;">
+                                <a target="_blank" href="https://github.com/ESomi/react/tree/main/webchat/webchat-redux">
+                                    <i class="fab fa-github-square fa-2x" style="color: black"></i>
+                                </a>
+                            </li>
+                        </ul>                                              
+                        <a target="_blank" href="#"><img src="./img/pf3.jpg" width="310" height="310"></a>         
+
+                        <ul id="desc">
+                            <li style="font-weight: 600">네트워킹 라이브러리 Socket.IO를 이용하여 채팅 기능을 구현하였습니다.</li>
+                            <li style="margin-top: 2rem;"><i class="fas fa-check-square"></i>  서버사이드 Node.js Express, 클라이언트 사이드 React로 구성</li>
+                            <li><i class="fas fa-check-square"></i>  기본채팅기능, 채팅입력중 알림, 입장 및 퇴장 알림 기능</li>
+                            <li><i class="fas fa-check-square"></i>  AWS Ubuntu로 서버 관리</li>
+                            <li style="font-weight: 500; margin-top: 1rem;">사용기술</li>
+                            <li>Node.js(Express)    Socket.IO   React,Redux   HTML  CSS3</li>
+                        </ul>
                     </div>
+
+                    <!-- 4rd PORTFOLIO -->
                     <div>
                         <ul>
                             <li>Data Analysis</li>
                             <li style="font-size: 1.2rem;">파이썬 부동산데이터 분석</li>
                         </ul>
-                        <a target="_blank" href="./content/python-analysis.pdf#page=28" download><img src="./img/pf3.jpg" width="380" height="380"></a>            
+                        <a target="_blank" href="./content/python-analysis.pdf#page=28" download><img src="./img/pf4.jpg" width="310" height="310"></a>            
                         <ul id="desc">
                             <li style="font-weight: 600">수집·가공한 데이터를 파이썬으로 데이터를 지도에 시각화하는 팀프로젝트입니다.</li>
                             <li style="margin-top: 2rem;"><i class="fas fa-check-square"></i>  공공데이터 API로 자료수집 후 전처리, 통계기법 적용</li>
                             <li><i class="fas fa-check-square"></i>  Python의 Folium 지도시각화 라이브러리 활용</li>
                             <li style="font-weight: 500; margin-top: 1rem;">사용기술</li>
-                            <li>Python(folium,Pandas)</li>
+                            <li>Python(Folium,Pandas)</li>
                         </ul>                        
-                        
                     </div>                                    
                 </div>
             </span>
-  
         </div>
-        <div class="fullsection full3" pageNum="3">
+
+        <div class="fullsection full4" id="full4" pageNum="4">
             <span>
                 <h2>CONTACT</h2>
                 <div class="contact-container">
@@ -145,6 +273,7 @@
                 </div>
             </span>
         </div>
+
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
